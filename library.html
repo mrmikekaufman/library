@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./library.css">
+    <script src="./library.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>YOUR LIBRARY</h1></div>
+        <div class="sidebar">
+            <h1>LIBRARY</h1>
+            <form id="form1">
+                <div>
+                    <label for="book_title">Book Title:</label>
+                    <input type="text" id="book_title" name="book_title" placeholder="What book did you read?">
+                </div>
+                <div>
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author" placeholder="Who wrote the book?">
+                </div>
+                <div>
+                    <label for="pages">Number of pages:</label>
+                    <input type="text" id="pages" name="pages" placeholder="How many pages?">
+                </div>
+                <div>
+                    <label for="read_book">I finished the book!</label>
+                    <input type="checkbox" id="read_book" name="read_book">                    
+                </div>
+            </form>
+            <div class="submit-button"><button class="add-book" type="button" form="form1" value="Submit">Add Book</button></div>
+        </div>
+        <div class="content"></div>
+    </div>
+
+</body>
+</html>
