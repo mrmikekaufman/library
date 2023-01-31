@@ -13,7 +13,7 @@ html, body {
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-color: blue;
+    background-color: #afbbf2;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -48,7 +48,7 @@ html, body {
 .submit-button button {
     padding: 8px;
     width: 50%;
-    background-color:darkgrey;
+    background-color: #9649cb;
     color: whitesmoke;
     border-radius: 8px;
 }
@@ -71,7 +71,7 @@ input {
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: red;
+    background-color: #d3fff3;
     overflow: auto;
     display: flex;
     justify-content: flex-start;
@@ -81,7 +81,30 @@ input {
 }
 
 .content div {
-    background-color: white;
-    width: 200px;
-    height: 200px;
+    background-color:#7f0799;
+    width: 220px;
+    height: 220px;
+}
+
+.content div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+button {
+    background-color: #9649cb;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 4px;
+
 }
